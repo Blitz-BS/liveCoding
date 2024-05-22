@@ -55,7 +55,7 @@ On note $i$ le nombre complexe tel que $i^2=-1$. Combien vaut $i^i$ ?
 
 ## Exercice 2
 Soit $M$ la matrice $\begin{pmatrix}
-0 & 1\\
+0 & 1\\\
 1 & 0
 \end{pmatrix}$
 
