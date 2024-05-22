@@ -54,10 +54,8 @@ Pour les besoins de l'exercice, on assimilera le revenu médian et le revenu moy
 On note $i$ le nombre complexe tel que $i^2=-1$. Combien vaut $i^i$ ?
 
 ## Exercice 2
-Soit $M$ la matrice $\begin{pmatrix}
-0 & 1\\\
-1 & 0
-\end{pmatrix}$
+Soit $M$ la matrice
+$\begin{pmatrix} 0 & 1\\ 1 & 0 \end{pmatrix}$
 
 Soit $n$ un nombre entier. Calculer $M^n$. En donner une interprétation géométrique.
 
