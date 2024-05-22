@@ -51,7 +51,15 @@ Pour les besoins de l'exercice, on assimilera le revenu médian et le revenu moy
 
 # Exercices de mathématique
 ## Exercice 1
-On note $i$ le nombre complexe tel que $i^2=-1$. Combien fait $i^i$ ?
+On note $i$ le nombre complexe tel que $i^2=-1$. Combien vaut $i^i$ ?
+
+## Exercice 2
+Soit $M$ la matrice $\begin{pmatrix}
+0 & 1\\
+1 & 0
+\end{pmatrix}$
+
+Soit $n$ un nombre entier. Calculer $M^n$. En donner une interprétation géométrique.
 
 # Exercices de machine learning
 ## Exercice 1
