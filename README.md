@@ -42,7 +42,7 @@ Vous disposez de 5 tables issues de données de l'INSEE sur les communes frança
 Pour les besoins de l'exercice, on assimilera le revenu médian et le revenu moyen. 
 
 ## Questions
-* Quel est le revenu déclaré moyen en France ?
+* Quel est le revenu déclaré moyen d'un ménage en France ?
 * Quelle est la commune avec le plus faible revenu déclaré médian ? Qu'en pensez vous ?
 * Quelle sont les 5 communes avec les plus forts revenus fiscaux totaux pour l’État et les collectivités locales ? 
 * Quelle sont les 5 communes qui profitent le plus de la redistribution ?
