@@ -53,9 +53,11 @@ Pour les besoins de l'exercice, on assimilera le revenu médian et le revenu moy
 
 ## Environnement
 
-Il n'y a pas de code à *rendre* pour cet exercice. Il est toutefois conseillé d'avoir un environnement [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0] ou plus récent.
+Pour réaliser cet exercice, vous devez disposer d'un environnement [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) ou plus récent.
+Il n'y a pas de code à produire (les réponses attendues sont assez simples pour être décrites oralement).
 
 On considère une application (très) simplifiée de gestion d'équipes sportives (le sport ciblé est quelconque).
+
 Le système enregistre des joueurs, des équipes, et pour faire le lien entre les deux, des contrats.
 Un contrat lie un joueur à une équipe, possède une date de début ainsi qu'une date de fin (celle ci est `null` si le contrat est toujours en cours).
 Un joueur peut avoir un nombre illimité de contrats au cours de sa carrière, faire des allers-retours entre différentes équipes, mais un seul contrat doit être actif à la fois.
@@ -67,7 +69,7 @@ On va s'intéresser au code métier permettant de mettre fin en une fois à des 
 
 * Quel est l'intérêt d'avoir des paramètres génériques `TEntity` et `TKey` dans l'interface `IFullRepository` ?
 * Examiner la méthode `TerminateContractsAsync` du `ContractService`. Quels sont les deux problèmes dans cette méthode et comment les corriger ?
-* Bonus : comment améliorer le code "standard" fourni par l'interface `IFullRepository` et les interfaces qu'elle agrège (`ICreateRepository`, `IReadRepository`, etc.)
+* Bonus : comment améliorer le code "standard" fourni par l'interface `IFullRepository` et les interfaces qu'elle agrège (`ICreateRepository`, `IReadRepository`, etc.) ?
 
 # Exercices de mathématique
 ## Exercice 1
