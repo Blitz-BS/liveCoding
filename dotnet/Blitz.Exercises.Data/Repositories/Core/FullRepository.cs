@@ -4,6 +4,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Blitz.Exercises.Data.Repositories.Core;
 
+/// <summary>
+/// Provides implementations for a standard repository with all CRUD operations. 
+/// </summary>
+/// <param name="contextFactory">Context factory.</param>
+/// <typeparam name="TEntity">The type of the entity the repository is supposed to handle.</typeparam>
+/// <typeparam name="TKey">The type of the entity's primary key.</typeparam>
 public abstract class FullRepository<TEntity, TKey>(IDbContextFactory<Context> contextFactory)
     : CoreRepository<TEntity>(contextFactory), IFullRepository<TEntity, TKey>
     where TEntity : Entity
