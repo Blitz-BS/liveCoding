@@ -1,4 +1,4 @@
-# Exercice de live coding Python
+# Exercice de manipulations de données en Python
 
 ## Environnement
 Pour réaliser cet exercice vous devez disposer d'un environnement python avec les packages suivants
@@ -72,16 +72,34 @@ On va s'intéresser au code métier permettant de mettre fin en une fois à des 
 * Bonus : comment améliorer le code "standard" fourni par l'interface `IFullRepository` et les interfaces qu'elle agrège (`ICreateRepository`, `IReadRepository`, etc.) ?
 
 # Exercices de mathématique
-## Exercice 1
-On note $i$ le nombre complexe tel que $i^2=-1$. Combien vaut $i^i$ ?
 
-## Exercice 2
-Soit $M$ la matrice
+Soit $M_2$ la matrice
 ```math
 \begin{pmatrix}0&1\\1&0\end{pmatrix}
 ```
 
-Soit $n$ un nombre entier. Calculer $M^n$. En donner une interprétation géométrique.
+1. Soit $k$ un nombre entier. Calculer $M_2^k$.
+2. Donner une interprétation géométrique de la transformation linéaire associée à $M_2$
+3. En déduire deux vecteurs propres et leurs deux valeurs propres associés.
+
+Soit $M_3$ la matrice
+```math
+\begin{pmatrix}0&1&0\\0&0&1\\1&0$0\end{pmatrix}
+```
+
+4. Donner un vecteur propre évident ainsi que sa valeur propre associée. On pourra s'inspirer de ce qui a été remarqué à la question 3.
+5. En déduire une interprétation géométrique de la transformation linéaire associée à $M_3$
+6. Quel est l'angle associé à cette interprétation géométrique ?
+
+Soit $\delta_n^p$ la fonction qui vaut 1 si $n=p$ et 0 sinon.
+
+On note $\%$ la fonction modulo. Exemple $5\%2=1$
+
+Soit $M_n$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in \left[0,n-1\right]$ avec $m^i_j = \delta^{(i+1)\%n}_j$.
+
+7. Que vaut $M_n^{k.n}$ où $k$ est un entier ?
+8. Quel est le lien entre l'ensemble des matrices $M_n^k$ où $k \in \left[0,n-1\right]$ et l'ensemble des nombres complexes $e^{k.\frac{2.\pi}{n}}$ où $k \in \left[0,n-1\right]$ ?
+9. Retrouver les nombres complexes $e^{k.\frac{2.\pi}{2}}$ et $e^{k.\frac{2.\pi}{3}}$ dans les interprétations géométriques des transformations linéaires associées à $M_2$ et $M_3$.
 
 # Exercices de machine learning
 ## Exercice 1
