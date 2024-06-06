@@ -84,7 +84,7 @@ Soit $M_2$ la matrice
 
 Soit $M_3$ la matrice
 ```math
-\begin{pmatrix}0&1&0\\0&0&1\\1&0$0\end{pmatrix}
+\begin{pmatrix}0&1&0\\0&0&1\\1&0&0\end{pmatrix}
 ```
 
 4. Donner un vecteur propre évident ainsi que sa valeur propre associée. On pourra s'inspirer de ce qui a été remarqué à la question 3.
@@ -93,13 +93,13 @@ Soit $M_3$ la matrice
 
 Soit $\delta_n^p$ la fonction qui vaut 1 si $n=p$ et 0 sinon.
 
-On note $\%$ la fonction modulo. Exemple $5\%2=1$
+On note $\mod{}$ la fonction modulo. Exemple $5\mod{2}=1$
 
-Soit $M_n$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in \left[0,n-1\right]$ avec $m^i_j = \delta^{(i+1)\%n}_j$.
+Soit $M_n$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in \left[0,n-1\right]$ avec $m^i_j = \delta^{\left(i+1\right)\mod{n}}_j$.
 
 7. Que vaut $M_n^{k.n}$ où $k$ est un entier ?
 8. Quel est le lien entre l'ensemble des matrices $M_n^k$ où $k \in \left[0,n-1\right]$ et l'ensemble des nombres complexes $e^{k.\frac{2.\pi}{n}}$ où $k \in \left[0,n-1\right]$ ?
-9. Retrouver les nombres complexes $e^{k.\frac{2.\pi}{2}}$ et $e^{k.\frac{2.\pi}{3}}$ dans les interprétations géométriques des transformations linéaires associées à $M_2$ et $M_3$.
+9. Retrouver les nombres complexes $e^{k.i.\frac{2.\pi}{2}}$ et $e^{k.i.\frac{2.\pi}{3}}$ dans les interprétations géométriques des transformations linéaires associées à $M_2$ et $M_3$.
 
 # Exercices de machine learning
 ## Exercice 1
