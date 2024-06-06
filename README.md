@@ -79,8 +79,8 @@ Soit $M_2$ la matrice
 ```
 
 1. Soit $k$ un nombre entier. Calculer $M_2^k$.
-2. Donner une interprétation géométrique de la transformation linéaire associée à $M_2$
-3. En déduire deux vecteurs propres et leurs deux valeurs propres associés.
+2. Donner une interprétation géométrique de la transformation linéaire associée à $M_2$.
+3. En déduire deux vecteurs propres et leurs deux valeurs propres associées.
 
 Soit $M_3$ la matrice
 ```math
@@ -88,8 +88,8 @@ Soit $M_3$ la matrice
 ```
 
 4. Donner un vecteur propre évident ainsi que sa valeur propre associée. On pourra s'inspirer de ce qui a été remarqué à la question 3.
-5. En déduire une interprétation géométrique de la transformation linéaire associée à $M_3$
-6. Quel est l'angle associé à cette interprétation géométrique ?
+5. En déduire une interprétation géométrique de la transformation linéaire associée à $M_3$ ainsi qu'une interprétation géométrique associée à $^TM_3$.
+7. Quel est l'angle associé à ces interprétations géométriques ?
 
 Soit $\delta_n^p$ la fonction qui vaut 1 si $n=p$ et 0 sinon.
 
