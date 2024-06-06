@@ -1,3 +1,5 @@
+Ces exercices ne sont pas fait pour être terminés. L'objectif est que vous alliez le plus loin possible.
+
 # Exercice de manipulations de données en Python
 
 ## Environnement
