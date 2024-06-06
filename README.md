@@ -89,7 +89,7 @@ Soit $M_3$ la matrice
 
 4. Donner un vecteur propre évident ainsi que sa valeur propre associée. On pourra s'inspirer de ce qui a été remarqué à la question 3.
 5. En déduire une interprétation géométrique de la transformation linéaire associée à $M_3$ ainsi qu'une interprétation géométrique associée à $^TM_3$.
-7. Quel est l'angle associé à ces interprétations géométriques ?
+7. Quel sont les angles associés à ces interprétations géométriques ?
 
 Soit $\delta_n^p$ la fonction qui vaut 1 si $n=p$ et 0 sinon.
 
