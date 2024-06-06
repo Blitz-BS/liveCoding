@@ -107,6 +107,12 @@ On note $I_n$ la matrice identité de dimension $n$
 
 10. Quel est plus petit nombre entier strictement positif $k$ tel que $M^k_{n,p} = I_n$ ?
 
+On note $\mathbb{1}$, le vecteur composé uniquement de $1$.
+
+On considère l'ensemble des matrices $A$ composées uniquement de $0$ et de $1$ et telles que $T^A.A = I$ et telles que $\mathbb{1}$ est un vecteur propre dont la valeur propre est $1$.
+
+11. Que pour une matrice $A$ donnée, il existe forcément un nombre $k$ tel que $A^k = I$ ?
+
 # Exercices de machine learning
 ## Exercice 1
 Lors d'un travail de mise au point d'un algorithme de machine learning, comment détectez vous le sur-apprentissage ? Si vous détecter du sur-apprentissage quelles sont les pistes classiques pour le limiter ?
