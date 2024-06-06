@@ -78,7 +78,7 @@ Soit $M_2$ la matrice
 \begin{pmatrix}0&1\\1&0\end{pmatrix}
 ```
 
-1. Soit $k$ un nombre entier. Calculer $M_2^k$.
+1. Soit $k$ un nombre entier positif. Calculer $M_2^k$.
 2. Donner une interprétation géométrique de la transformation linéaire associée à $M_2$.
 3. En déduire deux vecteurs propres et leurs deux valeurs propres associées.
 
