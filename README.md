@@ -101,6 +101,12 @@ Soit $M_n$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in \lef
 8. Quel est le lien entre l'ensemble des matrices $M_n^k$ où $k \in \left[0,n-1\right]$ et l'ensemble des nombres complexes $e^{k.i.\frac{2.\pi}{n}}$ où $k \in \left[0,n-1\right]$ ?
 9. Retrouver les nombres complexes $e^{k.i.\frac{2.\pi}{2}}$ et $e^{k.i.\frac{2.\pi}{3}}$ dans les interprétations géométriques des transformations linéaires associées à $M_2$ et $M_3$.
 
+Soit $M_{n,p}$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in \left[0,n-1\right]$ avec $m^i_j = \delta^{\left(i+p\right)\mod{n}}_j$.
+
+On note $I_n$ la matrice identité de dimension $n$
+
+10. Quel est plus petit nombre entier strictement positif $k$ tel que $M^k_{n,p} = I_n$ ?
+
 # Exercices de machine learning
 ## Exercice 1
 Lors d'un travail de mise au point d'un algorithme de machine learning, comment détectez vous le sur-apprentissage ? Si vous détecter du sur-apprentissage quelles sont les pistes classiques pour le limiter ?
