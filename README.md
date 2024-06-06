@@ -111,7 +111,7 @@ On note $\mathbb{1}$, le vecteur composé uniquement de $1$.
 
 On considère l'ensemble des matrices $A$ composées uniquement de $0$ et de $1$ et telles que $T^A.A = I$ et telles que $\mathbb{1}$ est un vecteur propre dont la valeur propre est $1$.
 
-11. Que pour une matrice $A$ donnée, il existe forcément un nombre $k$ tel que $A^k = I$ ?
+11. Est-il vrai que pour une matrice $A$ donnée, il existe forcément un nombre $k$ tel que $A^k = I$ ?
 
 # Exercices de machine learning
 ## Exercice 1
