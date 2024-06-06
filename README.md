@@ -109,9 +109,7 @@ On note $I_n$ la matrice identité de dimension $n$
 
 10. Quel est plus petit nombre entier strictement positif $k$ tel que $M^k_{n,p} = I_n$ ?
 
-On note $\mathbb{1}$, le vecteur composé uniquement de $1$.
-
-On considère l'ensemble des matrices $A$ composées uniquement de $0$ et de $1$ et telles que $^TA.A = I$ et telles que $\mathbb{1}$ est un vecteur propre dont la valeur propre est $1$.
+On considère l'ensemble des matrices carrées $A$ composées uniquement de $0$ et de $1$ et telles que $^TA.A = I$.
 
 11. Est-il vrai que pour une matrice $A$ donnée, il existe forcément un nombre $k$ tel que $A^k = I$ ?
 
