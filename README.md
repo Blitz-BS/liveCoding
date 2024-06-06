@@ -98,7 +98,7 @@ On note $\mod{}$ la fonction modulo. Exemple $5\mod{2}=1$
 Soit $M_n$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in \left[0,n-1\right]$ avec $m^i_j = \delta^{\left(i+1\right)\mod{n}}_j$.
 
 7. Que vaut $M_n^{k.n}$ où $k$ est un entier ?
-8. Quel est le lien entre l'ensemble des matrices $M_n^k$ où $k \in \left[0,n-1\right]$ et l'ensemble des nombres complexes $e^{k.\frac{2.\pi}{n}}$ où $k \in \left[0,n-1\right]$ ?
+8. Quel est le lien entre l'ensemble des matrices $M_n^k$ où $k \in \left[0,n-1\right]$ et l'ensemble des nombres complexes $e^{k.i.\frac{2.\pi}{n}}$ où $k \in \left[0,n-1\right]$ ?
 9. Retrouver les nombres complexes $e^{k.i.\frac{2.\pi}{2}}$ et $e^{k.i.\frac{2.\pi}{3}}$ dans les interprétations géométriques des transformations linéaires associées à $M_2$ et $M_3$.
 
 # Exercices de machine learning
