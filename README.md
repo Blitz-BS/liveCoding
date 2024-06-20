@@ -1,5 +1,38 @@
 Ces exercices ne sont pas fait pour être terminés. L'objectif est que vous alliez le plus loin possible.
 
+# Exercice de codage en python
+L'algorithme de César est une méthode de chiffrement simple où chaque lettre d'un message est décalée d'un nombre fixe (la clef) de positions vers la droite dans l'alphabet. Par exemple, avec un décalage de 3, la lettre A serait remplacée par D, B par E, et ainsi de suite. Cette méthode est nommée d'après Jules César, qui l'utilisait pour envoyer des messages secrets à ses généraux.
+
+1. Créez une fonction `sanitize` prenant en paramètres un texte avec des espaces et de la ponctuation, et qui retourne une chaîne de caractères comprenant uniquement les lettres de l'alphabet minuscule sans espace et sans ponctuation.
+On utilisera les constantes suivantes
+```python
+ALPHABET = 'abcdefghijklmnopqrstuvwxyz'
+MESSAGE = "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna alique."
+```
+2. Créez une classe `Cesar`, ayant 4 méthodes avec les prototypes suivants. Pour l'instant laisser les méthodes vides en utilisant `pass`.
+- `def encode(self, s:str) -> str`. Cette méthode servira à encoder la chaîne de caractère `s`.
+- `def decode(self, s:str) -> str`. Cette méthode servira à décoder la chaîne de caractère `s`.
+- `def crack(self, s:str) -> tuple[str, int]`. Cette méthode servira à cracker une chaîne de caractère encodé et renverra la chaîne décodée ainsi que la clef du code. 
+- `def sanitize(text:str) -> str` définie comme une méthode statique en reprenant la fonction ci-dessus
+
+3. Ajoutez le constructeur `__init__(self, key:int) -> None` qui construit la classe à partir de la clef d'encodage `key`
+
+4. Codez la méthode `encode` qui utilisera la méthode `sanitize`puis tester la avec le code suivant
+```python
+cesar = Cesar(3)
+print(cesar.encode("j'adore coder en live !"))
+```
+
+5. Codez la méthode `decode` puis tester la avec le code suivant
+```python
+cesar = Cesar(3)
+print(cesar.decode("mdgruhfrghuhqolyh"))
+```
+On pourra utiliser la fonction `ord` qui renvoie le code ASCII d'un caractère  : `ord('a') = 97` et `ord('z') = 122`. La fonction inverse qui renvoie un caractère ASCII à partir d'un entier est `chr(97) = 'a'`.
+
+6. Codez la méthode `crack` qui craque le code en découvrant la clef. Pour cela utilisez le fait que la lettre e est la plus utilisée en français. 
+Il est possible d'utiliser `max(occurences, key=occurences.get)` où `occurences` est un dictionnaire.
+
 # Exercice de manipulations de données en Python
 
 ## Environnement
@@ -107,11 +140,12 @@ Soit $M_{n,p}$ la matrice dont les éléments sont notés $m^i_j$ avec $i,j \in 
 
 On note $I_n$ la matrice identité de dimension $n$
 
-10. Quel est plus petit nombre entier strictement positif $k$ tel que $M^k_{n,p} = I_n$ ?
+10. Si vous avez fait l'exercice de codage en python, quel est le rapport entre $M_{25,p}$ et l'algorithme de César ?
+11. Quel est plus petit nombre entier strictement positif $k$ tel que $M^k_{n,p} = I_n$ ?
 
 On considère l'ensemble des matrices carrées $A$ composées uniquement de $0$ et de $1$ et telles que $^TA.A = I$.
 
-11. Est-il vrai que pour une matrice $A$ donnée, il existe forcément un nombre $k$ tel que $A^k = I$ ?
+12. Est-il vrai que pour une matrice $A$ donnée, il existe forcément un nombre $k$ tel que $A^k = I$ ?
 
 # Exercices de machine learning
 ## Exercice 1
